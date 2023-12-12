@@ -1,4 +1,4 @@
-package com.moral.sahed.HeadFirstDesignPatterns.interfaces;
+package com.sahed.designpatterns.interfaces;
 
 public interface FlyableInterface {
     public String fly();

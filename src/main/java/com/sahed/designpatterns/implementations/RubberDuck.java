@@ -1,8 +1,8 @@
-package com.moral.sahed.HeadFirstDesignPatterns.implementations;
+package com.sahed.designpatterns.implementations;
 
-import com.moral.sahed.HeadFirstDesignPatterns.Duck;
-import com.moral.sahed.HeadFirstDesignPatterns.concrete.FlyNoWay;
-import com.moral.sahed.HeadFirstDesignPatterns.concrete.Squeak;
+import com.sahed.designpatterns.Duck;
+import com.sahed.designpatterns.concrete.FlyNoWay;
+import com.sahed.designpatterns.concrete.Squeak;
 
 public class RubberDuck extends Duck {
 

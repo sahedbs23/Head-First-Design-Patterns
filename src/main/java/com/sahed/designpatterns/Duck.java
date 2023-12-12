@@ -1,7 +1,7 @@
-package com.moral.sahed.HeadFirstDesignPatterns;
+package com.sahed.designpatterns;
 
-import com.moral.sahed.HeadFirstDesignPatterns.interfaces.FlyableInterface;
-import com.moral.sahed.HeadFirstDesignPatterns.interfaces.QuackableInterface;
+import com.sahed.designpatterns.interfaces.FlyableInterface;
+import com.sahed.designpatterns.interfaces.QuackableInterface;
 
 public abstract class Duck {
     protected QuackableInterface quackBehaviour;

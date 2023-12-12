@@ -1,8 +1,8 @@
-package com.moral.sahed.HeadFirstDesignPatterns.implementations;
+package com.sahed.designpatterns.implementations;
 
-import com.moral.sahed.HeadFirstDesignPatterns.Duck;
-import com.moral.sahed.HeadFirstDesignPatterns.concrete.FlyNoWay;
-import com.moral.sahed.HeadFirstDesignPatterns.concrete.MuteQuack;
+import com.sahed.designpatterns.Duck;
+import com.sahed.designpatterns.concrete.FlyNoWay;
+import com.sahed.designpatterns.concrete.MuteQuack;
 
 public class DecoyDuck extends Duck {
 

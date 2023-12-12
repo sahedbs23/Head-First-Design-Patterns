@@ -1,6 +1,6 @@
-package com.moral.sahed.HeadFirstDesignPatterns.concrete;
+package com.sahed.designpatterns.concrete;
 
-import com.moral.sahed.HeadFirstDesignPatterns.interfaces.FlyableInterface;
+import com.sahed.designpatterns.interfaces.FlyableInterface;
 
 public class FlyRockerPowered implements FlyableInterface {
     @Override

@@ -1,6 +1,6 @@
-package com.moral.sahed.HeadFirstDesignPatterns.concrete;
+package com.sahed.designpatterns.concrete;
 
-import com.moral.sahed.HeadFirstDesignPatterns.interfaces.QuackableInterface;
+import com.sahed.designpatterns.interfaces.QuackableInterface;
 
 public class MuteQuack implements QuackableInterface {
     @Override
