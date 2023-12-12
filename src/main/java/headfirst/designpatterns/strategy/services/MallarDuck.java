@@ -1,8 +1,8 @@
-package headfirst.designpatterns.implementations;
+package headfirst.designpatterns.strategy.services;
 
-import headfirst.designpatterns.Duck;
-import headfirst.designpatterns.concrete.FlyWithWings;
-import headfirst.designpatterns.concrete.Quack;
+import headfirst.designpatterns.strategy.contract.Duck;
+import headfirst.designpatterns.strategy.provider.FlyWithWings;
+import headfirst.designpatterns.strategy.provider.Quack;
 
 public class MallarDuck extends Duck {
 

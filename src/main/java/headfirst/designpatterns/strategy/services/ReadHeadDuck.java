@@ -1,8 +1,8 @@
-package headfirst.designpatterns.implementations;
+package headfirst.designpatterns.strategy.services;
 
-import headfirst.designpatterns.Duck;
-import headfirst.designpatterns.concrete.FlyNoWay;
-import headfirst.designpatterns.concrete.Quack;
+import headfirst.designpatterns.strategy.contract.Duck;
+import headfirst.designpatterns.strategy.provider.FlyNoWay;
+import headfirst.designpatterns.strategy.provider.Quack;
 
 public class ReadHeadDuck extends Duck {
     public ReadHeadDuck(){

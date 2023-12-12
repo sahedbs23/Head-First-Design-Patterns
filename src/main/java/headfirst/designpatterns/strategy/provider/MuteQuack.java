@@ -1,6 +1,6 @@
-package headfirst.designpatterns.concrete;
+package headfirst.designpatterns.strategy.provider;
 
-import headfirst.designpatterns.interfaces.QuackableInterface;
+import headfirst.designpatterns.strategy.contract.QuackableInterface;
 
 public class MuteQuack implements QuackableInterface {
     @Override

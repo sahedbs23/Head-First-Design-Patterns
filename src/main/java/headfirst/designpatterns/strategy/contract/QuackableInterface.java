@@ -1,4 +1,4 @@
-package headfirst.designpatterns.interfaces;
+package headfirst.designpatterns.strategy.contract;
 
 public interface QuackableInterface {
     public String quack();

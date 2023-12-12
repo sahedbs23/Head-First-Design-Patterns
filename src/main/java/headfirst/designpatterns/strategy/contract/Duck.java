@@ -1,7 +1,4 @@
-package headfirst.designpatterns;
-
-import headfirst.designpatterns.interfaces.FlyableInterface;
-import headfirst.designpatterns.interfaces.QuackableInterface;
+package headfirst.designpatterns.strategy.contract;
 
 public abstract class Duck {
     protected QuackableInterface quackBehaviour;
@@ -17,6 +14,15 @@ public abstract class Duck {
 
     public Duck setFlyBehaviour(FlyableInterface flyBehaviour) {
         this.flyBehaviour = flyBehaviour;
+        return this;
+    }
+
+    /**
+     * @param quackBehaviour
+     * @return Duck
+     */
+    public Duck setQuackBehaviour(QuackableInterface quackBehaviour) {
+        this.quackBehaviour = quackBehaviour;
         return this;
     }
 

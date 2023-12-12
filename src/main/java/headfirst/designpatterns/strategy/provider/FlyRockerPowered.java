@@ -1,6 +1,6 @@
-package headfirst.designpatterns.concrete;
+package headfirst.designpatterns.strategy.provider;
 
-import headfirst.designpatterns.interfaces.FlyableInterface;
+import headfirst.designpatterns.strategy.contract.FlyableInterface;
 
 public class FlyRockerPowered implements FlyableInterface {
     @Override

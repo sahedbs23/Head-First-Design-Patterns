@@ -1,8 +1,8 @@
-package headfirst.designpatterns.implementations;
+package headfirst.designpatterns.strategy.services;
 
-import headfirst.designpatterns.Duck;
-import headfirst.designpatterns.concrete.FlyNoWay;
-import headfirst.designpatterns.concrete.Squeak;
+import headfirst.designpatterns.strategy.contract.Duck;
+import headfirst.designpatterns.strategy.provider.FlyNoWay;
+import headfirst.designpatterns.strategy.provider.Squeak;
 
 public class RubberDuck extends Duck {
 
