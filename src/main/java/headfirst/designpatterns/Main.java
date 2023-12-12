@@ -1,6 +1,6 @@
-package com.sahed.designpatterns;
+package headfirst.designpatterns;
 
-import com.sahed.designpatterns.implementations.MallarDuck;
+import headfirst.designpatterns.implementations.MallarDuck;
 
 public class Main {
     public static void main(String[] args) {

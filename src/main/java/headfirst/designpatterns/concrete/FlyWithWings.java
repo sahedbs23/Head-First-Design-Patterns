@@ -1,6 +1,6 @@
-package com.sahed.designpatterns.concrete;
+package headfirst.designpatterns.concrete;
 
-import com.sahed.designpatterns.interfaces.FlyableInterface;
+import headfirst.designpatterns.interfaces.FlyableInterface;
 
 public class FlyWithWings implements FlyableInterface {
     @Override

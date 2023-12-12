@@ -1,8 +1,8 @@
-package com.sahed.designpatterns.implementations;
+package headfirst.designpatterns.implementations;
 
-import com.sahed.designpatterns.Duck;
-import com.sahed.designpatterns.concrete.FlyNoWay;
-import com.sahed.designpatterns.concrete.Quack;
+import headfirst.designpatterns.Duck;
+import headfirst.designpatterns.concrete.FlyNoWay;
+import headfirst.designpatterns.concrete.Quack;
 
 public class ReadHeadDuck extends Duck {
     public ReadHeadDuck(){

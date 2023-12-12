@@ -1,6 +1,6 @@
-package com.sahed.designpatterns.concrete;
+package headfirst.designpatterns.concrete;
 
-import com.sahed.designpatterns.interfaces.QuackableInterface;
+import headfirst.designpatterns.interfaces.QuackableInterface;
 
 public class Squeak implements QuackableInterface {
     @Override

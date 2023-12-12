@@ -1,4 +1,4 @@
-package com.sahed.designpatterns.interfaces;
+package headfirst.designpatterns.interfaces;
 
 public interface QuackableInterface {
     public String quack();
